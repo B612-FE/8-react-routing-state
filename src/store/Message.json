@@ -1,0 +1,118 @@
+[
+  {
+    "roomId": 1,
+    "chat": [
+      {
+        "chatId": 1,
+        "senderId": 0,
+        "receiverId": 1,
+        "text": "박사님 저 오늘 구몬 못했어요",
+        "time": "11:24"
+      },
+      {
+        "chatId": 2,
+        "senderId": 1,
+        "receiverId": 0,
+        "text": "생각하는 의자 ㄱㄱ",
+        "time": "11:24"
+      },
+      {
+        "chatId": 3,
+        "senderId": 0,
+        "receiverId": 1,
+        "text": "...",
+        "time": "11:28"
+      }
+    ]
+  },
+  {
+    "roomId": 2,
+    "chat": [
+      {
+        "chatId": 1,
+        "senderId": 2,
+        "receiverId": 0,
+        "text": "안녕하세요",
+        "time": "17:34"
+      },
+      {
+        "chatId": 2,
+        "senderId": 0,
+        "receiverId": 2,
+        "text": "안녕하세요!!",
+        "time": "18:24"
+      }
+    ]
+  },
+  {
+    "roomId": 3,
+    "chat": [
+      {
+        "chatId": 1,
+        "senderId": 3,
+        "receiverId": 0,
+        "text": "강조되고 반복되는 소리는 강아지를 불안하게 해요",
+        "time": "11:03"
+      },
+      {
+        "chatId": 2,
+        "senderId": 0,
+        "receiverId": 3,
+        "text": "강조되고 반복되는 과제는 대학생을 불안하게 해요",
+        "time": "11:30"
+      },
+      {
+        "chatId": 3,
+        "senderId": 3,
+        "receiverId": 0,
+        "text": ".....?",
+        "time": "11:43"
+      }
+    ]
+  },
+  {
+    "roomId": 4,
+    "chat": [
+      {
+        "chatId": 1,
+        "senderId": 4,
+        "receiverId": 0,
+        "text": "야옹~",
+        "time": "11:03"
+      },
+      {
+        "chatId": 2,
+        "senderId": 0,
+        "receiverId": 4,
+        "text": "내가 과제를 할 수도 있고 안할 수 도 있어",
+        "time": "11:30"
+      }
+    ]
+  },
+  {
+    "roomId": 5,
+    "chat": [
+      {
+        "chatId": 1,
+        "senderId": 5,
+        "receiverId": 0,
+        "text": "6-3=6이야",
+        "time": "11:03"
+      },
+      {
+        "chatId": 2,
+        "senderId": 0,
+        "receiverId": 5,
+        "text": "갑자기?",
+        "time": "11:30"
+      },
+      {
+        "chatId": 3,
+        "senderId": 5,
+        "receiverId": 0,
+        "text": "응",
+        "time": "11:43"
+      }
+    ]
+  }
+]
