@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "userId": 0,
+      "userName": "김나봉",
+      "profileImage": "user0",
+      "personalMessage": "안녕하세욥!"
+    },
+    {
+      "userId": 1,
+      "userName": "오은영",
+      "profileImage": "user1",
+      "personalMessage": "사람에게 치유"
+    },
+    {
+      "userId": 2,
+      "userName": "이수정",
+      "profileImage": "user2",
+      "personalMessage": "사람 때문 죽어"
+    },
+    {
+      "userId": 3,
+      "userName": "강형욱",
+      "profileImage": "user3",
+      "personalMessage": "세상에 나쁜 개는 없다"
+    },
+    {
+      "userId": 4,
+      "userName": "슈뢰딩거",
+      "profileImage": "user4",
+      "personalMessage": "야옹"
+    },
+    {
+      "userId": 5,
+      "userName": "아인슈타인",
+      "profileImage": "user5",
+      "personalMessage": "우유"
+    }
+  ]
+}
