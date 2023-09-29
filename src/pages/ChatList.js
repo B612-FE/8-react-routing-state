@@ -7,10 +7,17 @@ import Buttons from '../components/Buttons';
 
 const Chat = ({userId,lastMessage}) => {
   const navigate = useNavigate();
-  const src = `${process.env.PUBLIC_URL}/img/${userId}.jpg`;
+  const imgPaths = [
+    process.env.PUBLIC_URL + "/img/1.png",
+  ]
   return (
     <ChatWrapper>
-      <ProfileImg src={src} />
+      {imgPaths.map((imagePath,index) => (
+        <div key={index}>
+          <ProfileImg src={imgPaths} alt={`Image ${index + 1}`} />
+          
+        </div>
+      ))}
       <ChatInfo>
         <FriendName>{userId}</FriendName>
         <LastMessage>{lastMessage}</LastMessage>
@@ -66,7 +73,6 @@ const LastMessage = styled.div`
 `;
 
 const ChatListWrapper = styled.div`
-  display: flex;
   align-items: center;
   justify-content: center;
   box-shadow: 1px 1px 3px 3px lightgrey;

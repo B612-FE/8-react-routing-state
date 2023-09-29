@@ -16,7 +16,7 @@ const ButtonsWrapper = styled.div`
     display: flex;
     align-items: center;
     justify-items: center;
-
+    bottom: 0px;
 `;
 
 const Friends = styled.section`

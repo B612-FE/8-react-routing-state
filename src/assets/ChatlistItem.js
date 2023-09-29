@@ -1,23 +1,23 @@
 const ChatlistItem = [
     {
         roomId: 1,
-        userId: "고양이1",
+        userId: "까치",
         lastMessage: "?",
 
     },
     {
         roomId: 2,
-        userId: "고양이2",
+        userId: "쿼카",
         lastMessage: "?",
     },
     {
         roomId: 3,
-        userId: "강아지1",
+        userId: "다람쥐",
         lastMessage: "?",
     },
     {
         roomId: 4,
-        userId: "강아지2",
+        userId: "너구리",
         lastMessage:"?",
     }
 ]

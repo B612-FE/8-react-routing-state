@@ -1,8 +1,8 @@
 const FriendItem = [
-    { userId: "고양이1", status: "?" },
-    { userId: "고양이2", status: "??" },
-    { userId: "강아지1", status: "???" },
-    { userId: "강아지2", status: "????" },
+    { userId: "까치", status: "?" },
+    { userId: "쿼카", status: "??" },
+    { userId: "다람쥐", status: "???" },
+    { userId: "너구리", status: "????" },
 ]
 
 export default FriendItem;

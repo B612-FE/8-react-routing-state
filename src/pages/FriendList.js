@@ -55,7 +55,7 @@ const ProfileImg = styled.img`
 const FriendInfo = styled.span`
     display: flex;
     flex-direction: column;
-    height: 8rem;
+    height: 7rem;
     align-items: center;
     justify-content: center;
 `;
@@ -70,7 +70,6 @@ const StatusMessage = styled.div`
 `;
 
 const FriendWrapper = styled.div`
-    display: flex;
     align-items: center;
     justify-content: center;
     box-shadow: 1px 1px 3px 3px lightgrey;

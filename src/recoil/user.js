@@ -1,8 +1,8 @@
 import { atom, selector } from "recoil";
-import FriendItem from "../assets/FriendItem.json"
+import FriendItems from "../assets/FriendItems.json"
 
 
 export const friendState = atom({
     key:'friends',
-    default: FriendItem.users,
+    default: FriendItems.users,
 });
