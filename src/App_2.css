@@ -1,0 +1,99 @@
+.App {
+  border: none;
+  padding: 20px;
+  width: 500px;
+  background-color: skyblue;
+  border-radius: 15px;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  font-family: Arial, sans-serif;
+
+  padding: 20px;
+}
+
+h2 {
+  color: #333;
+}
+
+.toggle {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.messages {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 400px;
+}
+
+.message-container {
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 20px; /* 둥근 말풍선 모양을 위한 테두리 반경 */
+  position: relative; 
+  display: inline-block;
+  word-wrap: break-word;
+}
+
+.user1 {
+  background-color: #f0f0f0;
+  text-align: left;
+}
+
+.user2 {
+  background-color: #0073e6;
+  color: #fff;
+  text-align: right;
+}
+
+.message {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.time {
+  color: #888;
+  font-size: 12px;
+  position: absolute;
+  bottom: -15px; /* 메시지 아래에 위치 */
+  right: 10px;
+}
+
+.input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #0073e6;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-left: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0055a4;
+}
